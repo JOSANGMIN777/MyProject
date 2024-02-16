@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  color: rgb(188, 188, 188);
+  width: 100%;
+  font-size: 90%;
+  padding: 20px 0;
+  box-sizing: border-box;
+  margin-top: auto;
+  & a {
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    font-family: 'NotoSansKR';
+  }
+  & span {
+    color: rgb(133, 133, 133);
+    font-family: 'NotoSansKR';
+  }
+  & .footer-contact {
+    margin-top: 1vh;
+  }
+}

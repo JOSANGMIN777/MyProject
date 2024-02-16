@@ -1,0 +1,36 @@
+.page {
+  // margin-top: 10%;
+	padding: 0.5rem;
+	cursor: pointer;
+  & a.on {
+    font-weight: 900;
+    border: 2px solid rgb(108, 159, 156);
+    border-radius: 100%;
+    // padding: 5px 7px;
+	  color: rgb(108, 159, 156);
+    font-family: 'NotoSansKR';
+  }
+  & a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(108, 159, 156);
+    // padding: 0vw 0.5vw;
+    padding: 3px 9px;
+  }
+  & a:not {
+    
+  }
+}
+
+span {
+  margin-top: 15%;
+}
+
+span > a{
+  cursor: pointer;
+}
+
+#move {
+  color: rgb(108, 159, 156);
+}
+

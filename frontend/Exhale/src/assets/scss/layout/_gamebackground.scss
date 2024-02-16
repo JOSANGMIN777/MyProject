@@ -1,0 +1,172 @@
+
+.sub-nav1 {
+  margin-top: 0;
+  position: fixed;
+  top: 19%;
+  left: 6%;
+  font-family: 'NotoSansKR';
+  font-size: 15px;
+  color: rgb(153, 153, 153);
+  // letter-spacing: 3%;
+}
+
+.enlarge {
+  position: fixed;
+  top: 64px;
+  left: 1290px;
+  width: 117px;
+  height: 40px;
+  padding: -5px 0px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: 3px solid rgb(175, 175, 175); 
+  &:hover {
+    border: rgb(108, 159, 156) solid 3px;
+    & .plus {
+      width: 0px;
+    }
+}
+  & .plus {
+    width: 21px;
+  }
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(108,159,156);
+  background: radial-gradient(circle, rgba(108,159,156,0.9506653002998074) 0%, rgba(255,255,255,1) 50%);
+  z-index: -1;
+}
+
+.navbar-logo {
+  width: 8%;
+  position: fixed;
+  top: 27px;
+  left: 75px;
+  // z-index: 2;
+}
+
+.problem {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.timer {
+  position: fixed;
+  top: 8.5%;
+  left: 34.2%;
+  width: 35%;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.timer-bar {
+  position: relative;
+  height: 100%;
+  background-color: rgb(108, 159, 156);
+  transition: width 1s linear;
+}
+
+.clock {
+  position: absolute;
+  top: 9px;
+  left: -410px;
+  width: 900px;
+  height: 23px;
+}
+
+.content {
+  position: fixed;
+  top: 19%;
+  font-size: 120%;
+  color: rgb(69, 69, 69);
+  font-family: 'NotoSansKR';
+  letter-spacing: 1px;
+  & .problemtitle {
+    width: 120%;
+  }
+}
+
+.imgurl {
+  position: fixed;
+  top: 29%;
+  left: 35%;
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.answer {
+  position: fixed;
+  top: 80%;
+  left: 50%;
+}
+
+.hint {
+  position: fixed;
+  top: 86%;
+  left: 49.5%;
+  color: rgb(155, 155, 155);
+}
+
+.hintBtn {
+  font-size: 86%;
+  position: fixed;
+  top: 79%;
+  left: 63.5%;
+  color: white;
+  border: 3px solid white;
+  border-radius: 25px;
+  padding-top: 4px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-shadow: 5px 2px 7px rgb(171, 171, 171);
+  box-shadow: 1px 2px 5px rgb(211, 211, 211);
+}
+
+
+//////////<STT.vue>////////
+
+.volume {
+  position: fixed;
+  top: 90%;
+  width: 70px;
+}
+
+.soundwave {
+  position: fixed;
+  top: 89%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  max-width: 1000px;
+  // z-index: 50;
+}
+
+.numbering {
+  font-size: 150%;
+  margin-left: 2%;
+}
+
+.sttcomponent1 {
+  position: fixed;
+  top: 78%;
+  left: 35%;
+}
+
+.process-number{
+  display: flex;
+  justify-content: flex-end;
+  color: rgb(108, 159, 156);
+  font-weight: 500;
+  font-size: 16px;
+  margin: 7px -9px;
+  font-family: 'NotoSansKR';
+}

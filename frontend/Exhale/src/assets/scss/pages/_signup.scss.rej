@@ -1,0 +1,54 @@
+diff a/frontend/Exhale/src/assets/scss/pages/_signup.scss b/frontend/Exhale/src/assets/scss/pages/_signup.scss	(rejected hunks)
+@@ -174,16 +174,16 @@
+   }
+   
+   .form {
+-  padding: 30px 70px;
++  padding: 35px 75px;
+   background-color: var(--white);
+   border-radius: 1.5rem;
+   width: 100%;
+-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
++  box-shadow: rgba(71, 71, 71, 0.35) 25px 20px 25px;
+   transform: scale(0);
+   transition: .5s ease-in-out;
+   transition-delay: 0.2s;
+   margin-bottom: 1vh;
+-  margin-top: 12vh;
++  margin-top: -80vh;
+   background-color: #ffffff;
+   }
+   
+@@ -436,10 +436,24 @@
+   }
+   
+   
++  .intro-logo {
++    display: flex;
++    justify-content: center;
++    align-items: center;
++    width: 40%;
++    height: 40%;
++    margin-left: 1500px;
++    padding-top: 43%;
++    // margin-top: 500px;
++    z-index: 25;
++    opacity: 30%;
++  }
+   
++
++
+   /* RESPONSIVE */
+   
+-  @media only screen and (max-width: 550px) {
++  @media only screen and (max-width: 1000px) {
+   
+   .container::before,
+   .container.sign-in::before,
+@@ -504,4 +518,4 @@
+       margin: .5rem;
+       font-size: 2rem;
+   }
+-  }
+\ No newline at end of file
++  }

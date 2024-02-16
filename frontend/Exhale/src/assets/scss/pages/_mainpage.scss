@@ -1,0 +1,408 @@
+
+* {
+  font-family: 'NotoSansKR';
+  letter-spacing: 1.5px;
+}
+
+.sub-nav1 {
+  margin-top: 0;
+}
+
+#breadcrum {
+  margin-left: 10vw;
+}
+
+
+.enlarge {
+  margin-right: 11vw;
+}
+
+.title {
+ color: rgb(108, 159, 156);
+ font-size: 190%;
+ font-weight: 800;
+ display: flex;
+ justify-content: center;
+ margin-top: 20px;
+ margin-bottom: 60px;
+ letter-spacing: 3px;
+}
+
+.mainbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  z-index: 2;
+
+  .box { // 기존 .box1, .box2, .box3, .box4 클래스에 적용되던 스타일
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    background-color: rgb(108, 159, 156);
+    color: white;
+    border: none;
+    font-size: 120%;
+    position: relative;
+  }
+}
+
+.subbox { // 기존 .subbox1, .subbox2, .subbox3, .subbox4 클래스에 적용되던 스타일
+  opacity: 0;
+  position: absolute;
+  top: 73%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  color: white;
+  gap: 20px;
+
+  .b { // 기존 .b1-1, .b1-2, .b1-3, .b2-1, .b2-2, .b3-1, .b3-2, .b4-1에 해당하는 스타일
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 100%;
+    color: gray;
+    border: 4px dotted lightgray;
+    width: 120px;
+    height: 120px;
+    font-size: 90%; // inline 스타일 대체
+    &:hover { // hover 스타일 적용
+      border: none;
+      background-color: rgb(108, 159, 156);
+      color: white;
+    }
+  }
+}
+
+.show {
+  opacity: 1;
+  animation: slide-in-blurred-top 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+  // animation: fadeIn 0.5s forwards;
+}
+
+.hide {
+  animation: slide-in-blurred-bottom 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+  display: none !important;
+  // animation: fadeOut 0.5s forwards;
+}
+
+
+#sublink {
+  text-decoration: none;
+  color: gray;
+}
+
+
+.bounce-in-top {
+	animation: bounce-in-top 1.1s both;
+}
+
+
+footer {
+  margin-top: 13vh;
+}
+
+
+.array1 {
+  animation: moveToCenter1 0.5s forwards;
+
+}
+
+.array2 {
+  animation: moveToCenter2 0.5s forwards;
+}
+
+
+.array3 {
+  animation: moveToCenter3 0.5s forwards;
+}
+
+
+.array4 {
+  animation: moveToCenter4 0.5s forwards;
+}
+
+
+.slide-in-blurred-left {
+	animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+.slide-in-blurred-right {
+	animation: slide-in-blurred-right 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+// 모션들 //
+
+@keyframes mergeCenter {
+  to {
+    opacity: 0;
+    transform: translateX(calc(50% - var(--box-size) / 2)) scale(0.1);
+  }
+}
+
+@keyframes scale-up-hor-right {
+  0% {
+    transform: scaleY(0);
+    transform-origin: 100% 50%;
+  }
+  100% {
+    transform: scaleY(7);
+    transform-origin: 0% 0%;
+  }
+}
+
+@keyframes slide-down {
+  from { transform: translateY(-100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { transform: translateY(0); opacity: 1; }
+  to { transform: translateY(-100%); opacity: 0; }
+}
+
+@keyframes slide-in-blurred-top {
+  0% {
+    transform: translateY(-200px) scaleY(2.5) scaleX(0.2);
+    transform-origin: 50% 0%;
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scaleY(1) scaleX(1);
+    transform-origin: 50% 50%;
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+
+@keyframes slide-in-blurred-bottom {
+  0% {
+    transform: translateY(500px) scaleY(2.5) scaleX(0.2);
+    transform-origin: 50% 100%;
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scaleY(1) scaleX(1);
+    transform-origin: 50% 50%;
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+// @keyframes slide-in-blurred-bottom {
+//   0% {
+//     transform: translateY(0) scaleY(2.5) scaleX(0.2);
+//     transform-origin: 50% 100%;
+//     filter: blur(0);
+//     opacity: 0;
+//   }
+//   100% {
+//     transform: translateY(-100px) scaleY(1) scaleX(1);
+//     transform-origin: 50% 50%;
+//     filter: blur(0);
+//     opacity: 1;
+//   }
+// }
+
+@keyframes slide-in-blurred-bottom {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-110px) scale(0);
+    filter: blur(60px);
+    opacity: 0;
+  }
+}
+
+
+@keyframes jello-horizontal {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
+@keyframes jello-horizontal2 {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+//////////////////
+@keyframes slide-in-blurred-left {
+  0% {
+    transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+    transform-origin: 100% 50%;
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) scaleY(1) scaleX(1);
+    transform-origin: 50% 50%;
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-blurred-right {
+  0% {
+    transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
+    transform-origin: 0% 50%;
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) scaleY(1) scaleX(1);
+    transform-origin: 50% 50%;
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    transform: scale(0.95);
+    visibility: hidden;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(1.05);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes moveToCenter1 {
+  from {
+    transform: translateX(calc(-30vw));
+    opacity: 1;
+  }
+  to {
+    transform: translateX(calc(50vw - 50vw));
+    opacity: 1;
+  }
+}
+
+@keyframes moveToCenter2 {
+  from {
+    transform: translateX(calc(-10vw)); 
+    opacity: 1;
+  }
+  to {
+    transform: translateX(calc(0vw));
+    opacity: 1;
+  }
+}
+
+@keyframes moveToCenter3 {
+  from {
+    transform: translateX(calc(10vw)); 
+    opacity: 1;
+  }
+  to {
+    transform: translateX(calc(50vw - 425%));
+    opacity: 1;
+  }
+}
+
+@keyframes moveToCenter4 {
+  from {
+    transform: translateX(calc(30vw)); 
+    opacity: 1;
+  }
+  to {
+    transform: translateX(calc(0vw));
+    opacity: 1;
+  }
+}
+
+// @keyframes restoreFromCenter1 {
+//   from {
+//     transform: translateX(0); 
+//   }
+//   to {
+//     transform: translateX(calc(-30vw)); 
+//   }
+// }
+
+// @keyframes restoreFromCenter2 {
+//   from {
+//     transform: translateX(0);
+//   }
+//   to {
+//     transform: translateX(calc(-10vw)); 
+//   }
+// }
+
+// @keyframes restoreFromCenter3 {
+//   from {
+//     transform: translateX(0);
+//   }
+//   to {
+//     transform: translateX(calc(10vw));
+//   }
+// }
+
+// @keyframes restoreFromCenter4 {
+//   from {
+//     transform: translateX(0);
+//   }
+//   to {
+//     transform: translateX(calc(30vw));
+//   }
+// }

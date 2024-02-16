@@ -1,0 +1,106 @@
+.commentlist {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.comments {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.sub-nav1 {
+  margin-bottom: 50px;
+}
+
+.text-muted {
+  margin-top: 5%;
+}
+
+.box-container {
+  margin-top: 50px;
+  margin-left: 23vw;
+  margin-right: 23vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'NotoSerifKR';
+}
+
+.contentDetail {
+  font-family: 'NotoSansKR';
+  font-size: 115%;
+}
+
+
+font-awesome-icon {
+  height: 500px;
+}
+
+.arrows {
+  position: relative;
+}
+
+.left-arrow {
+  cursor: pointer;
+  width: 40px;
+  position: absolute;
+  top: -90vh;
+  left: 10vw;
+  opacity: 60%;
+}
+
+.right-arrow {
+  cursor: pointer;
+  position: absolute;
+  top: -90vh;
+  left: 85vw;
+  width: 40px;
+  opacity: 60%;
+}
+
+.footer {
+  margin-bottom: -15vh;
+}
+
+.btn {
+  border: 1px solid gray;
+  border-radius: 30px;
+  padding: 10px 30px;
+  margin-right: 15px;
+}
+
+#buttonss {
+  margin-top: 10vh;
+  margin-left: 45.3vw;
+}
+
+
+.double-quote {
+  width: 50px;
+  margin-top: 7vh;
+  margin-bottom: 2vh;
+  margin-left: 47.5vw;
+  opacity: 70%;
+}
+
+.list {
+  width: 25px;
+  margin-right: 12px;
+  margin-bottom: 5px;
+}
+
+.edit {
+  width: 25px;
+  margin-right: 12px;
+  margin-bottom: 5px;
+  opacity: 70%;
+}
+
+.delete {
+  width: 22px;
+  margin-right: 12px;
+  margin-bottom: 5px;
+}

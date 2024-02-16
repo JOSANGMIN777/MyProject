@@ -1,0 +1,61 @@
+// .nav {
+//   display: inline;
+//   width: 100px;
+//   height: 28px;
+// }
+
+.hamburgerMenu {
+  position: relative;
+  margin-top: 50px;
+  margin-right: 90px;
+  animation: scale-up-hor-right 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.Menutext {
+  display: flex;
+  justify-content: center;
+  margin-right: -4vw;
+  font-family: 'NotoSerifKR';
+  color: rgb(108, 159, 156);
+  font-weight: 700;
+  font-size: large;
+  
+  // animation: fadeIn 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.wholeNav:hover {
+  & .Menutext {
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+}
+
+
+// .scale-up-hor-right {
+// 	animation: scale-up-hor-right 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+// }
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
