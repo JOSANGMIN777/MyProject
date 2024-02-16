@@ -116,15 +116,19 @@
  </td>
 </tr>
 </table>
+
 ## 아키텍처
 ![아키텍처](https://github.com/gunjoon98/readme/assets/48176143/5d6b12ef-c2b9-4c05-8a80-52c1be3f898d)
+
 ## ERD
 ![캡처](https://github.com/gunjoon98/readme/assets/48176143/ff3702d6-b316-47f2-9b9e-98175a89c009)
+
 ## :video_game: 팀원 소개 및 역할
+
 | 이름   | 기능 및 역할 |
 | ----|--------------------------------------------------------------------------- |
 | 정건준 |  팀장, Backend </br> PM, 인프라(docker, CI/CD), 재활 게임 API, 통계 API, S3, ChatGPT 적용|
 | 김희중 |  팀원, Backend </br> API 명세, 소셜로그인, 커뮤니티 API
 | 나하나 |  팀원, Frontend </br> UI,UX 설계 및 디자인, 웹 퍼블리싱(HTML, CSS, CS), 게시판 CRUD |
 | 신예지 |  팀원, Backend </br> DB, Spring Security(인증,인가), 사용자 관련 API, 재활 게임 API |
-| 조상민 |  팀원, Frontend </br> 기능 구현(회원가입, 로그인, 게시판, 댓글), 컴포넌트 구조 설계, API 연결, UCC 제작, 소셜로그인, STT/TTS구현 |
+| 조상민 |  팀원, Frontend </br> 기능 구현(회원가입, 로그인, 게시글 작성/수정/삭제, 댓글 작성/수정/삭제, 소셜로그인), 컴포넌트 구조 설계, API 연결, STT/TTS구현, UCC제작 |
