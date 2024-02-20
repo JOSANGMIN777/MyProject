@@ -118,9 +118,11 @@
 </table>
 
 ## 아키텍처
+
 ![아키텍처](https://github.com/gunjoon98/readme/assets/48176143/5d6b12ef-c2b9-4c05-8a80-52c1be3f898d)
 
 ## ERD
+
 ![캡처](https://github.com/gunjoon98/readme/assets/48176143/ff3702d6-b316-47f2-9b9e-98175a89c009)
 
 ## :video_game: 팀원 소개 및 역할
