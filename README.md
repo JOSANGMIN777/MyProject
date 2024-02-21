@@ -26,33 +26,33 @@
 - 따라 말하기의 문제를 풀었을 경우, 많이 틀린 발음(초,중,성)을 확인할 수 있습니다.
 ## :computer: 서비스 화면
 ### 메인 화면
-![메인화면](https://github.com/gunjoon98/readme/assets/48176143/42c6119c-bf8b-4458-b7bf-730fc976a98e)
+![메인화면](projectDocuments/img/메인화면.gif)
 ### 로그인 화면
-![로그인](https://github.com/gunjoon98/readme/assets/48176143/9c1b2083-9805-452b-b94c-3e8574eada25)
+![로그인](projectDocuments/img/로그인화면.gif)
 ### 회원가입 화면
-![회원가입화면](https://github.com/gunjoon98/readme/assets/48176143/dfb9e225-87c4-4b70-b21f-208016a0e9ab)
+![회원가입화면](projectDocuments/img/회원가입화면.gif)
 ### 회원가입시, 이메일 인증(성공)
-![ezgif com-video-to-gif-converter](https://github.com/gunjoon98/readme/assets/48176143/f9f2ce6c-f2e3-4e49-bb93-0186fdbe3675)
+![ezgif com-video-to-gif-converter](projectDocuments/img/회원가입시이메일인증.gif)
 ### 회원가입시, 이메일 인증(실패)
-![이메일_인증_성공](https://github.com/gunjoon98/readme/assets/48176143/5315e387-ec2d-4557-8a9e-d29a42309920)
+![이메일_인증_성공](projectDocuments/img/회원가입시이메일인증(실패).gif)
 ### 재활 코스 화면
-![게임코스화면](https://github.com/gunjoon98/readme/assets/48176143/8fad01ea-738e-4e9d-b520-dc701a0016d9)
+![게임코스화면](projectDocuments/img/재활코스화면.gif)
 ### 이름 대기 문제
-![이름대기_정답](https://github.com/gunjoon98/readme/assets/48176143/22aee4b9-d4fe-4f6b-b5f7-b6dd09f74abf)
+![이름대기_정답](projectDocuments/img/이름대기문제.gif)
 ### 따라 말하기 문제
-![따라말하기_오답](https://github.com/gunjoon98/readme/assets/48176143/f1d726eb-0a57-47db-8856-33f11645af89)
+![따라말하기_오답](projectDocuments/img/따라말하기문제.gif)
 ### 듣기 이해력 문제
-![듣기이해력_정답1](https://github.com/gunjoon98/readme/assets/48176143/1952ba3d-25e0-419d-bfaf-d93e1602f8a6)
-![듣기이해력_오답2](https://github.com/gunjoon98/readme/assets/48176143/31699d60-d263-4cc7-a7cb-551ef5976969)
+![듣기이해력_정답1](projectDocuments/img/듣기이해력문제.gif)
+![듣기이해력_오답2](projectDocuments/img/듣기이해력문제2.gif)
 ### 유창성 문제
-![유창성_정답](https://github.com/gunjoon98/readme/assets/48176143/9063e1b9-f2ae-469c-b03f-a9fc6541fdf4)
-![유창성_오답](https://github.com/gunjoon98/readme/assets/48176143/cf4016d4-d1e6-4241-9659-c72dc1a2b0b3)
+![유창성_정답1](projectDocuments/img/유창성문제.gif)
+![유창성_오답2](projectDocuments/img/유창성문제2.gif)
 ### 커뮤니티
-![커뮤니티](https://github.com/gunjoon98/readme/assets/48176143/f33836d2-92a0-4a81-b14f-eaee0ec1efa4)
+![커뮤니티](projectDocuments/img/커뮤니티.gif)
 ### 커뮤니티 글 쓰기
-![글쓰기](https://github.com/gunjoon98/readme/assets/48176143/a44db758-1efe-42f0-8148-3450863e6d0d)
+![글쓰기](projectDocuments/img/커뮤니티글쓰기.gif)
 ### 통계
-![통계](https://github.com/gunjoon98/readme/assets/48176143/81d6b864-defa-4e23-9b20-f5587ee818e2)
+![통계](projectDocuments/img/통계.gif)
 ## :scroll: 개발 환경
 <table>
 <tr>
@@ -119,11 +119,11 @@
 
 ## 아키텍처
 
-![아키텍처](https://github.com/gunjoon98/readme/assets/48176143/5d6b12ef-c2b9-4c05-8a80-52c1be3f898d)
+![아키텍처](projectDocuments/img/아키텍처.png)
 
 ## ERD
 
-![캡처](https://github.com/gunjoon98/readme/assets/48176143/ff3702d6-b316-47f2-9b9e-98175a89c009)
+![캡처](projectDocuments/img/ERD.png)
 
 ## :video_game: 팀원 소개 및 역할
 
